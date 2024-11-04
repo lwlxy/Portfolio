@@ -969,7 +969,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1024px) {
+		@media screen and (max-width: 1800px) {
 
 			.row {
 				display: flex;
@@ -1704,41 +1704,42 @@ input, select, textarea {
 
 		}
 
-/* Container */
+/* container1 */
 
-	.container {
+	.container1 {
 		margin: 0 auto;
 		max-width: calc(100% - 4.5em);
-		width: 45em;
+		/*max-width: 800px;*/
+		/*width: 45em;*/
 	}
 
-		.container.xsmall {
+		.container1.xsmall {
 			width: 11.25em;
 		}
 
-		.container.small {
+		.container1.small {
 			width: 22.5em;
 		}
 
-		.container.medium {
+		.container1.medium {
 			width: 33.75em;
 		}
 
-		.container.large {
+		.container1.large {
 			width: 56.25em;
 		}
 
-		.container.xlarge {
+		.container1.xlarge {
 			width: 67.5em;
 		}
 
-		.container.max {
+		.container1.max {
 			width: 100%;
 		}
 
-		@media screen and (max-width: 1024px) {
+		@media screen and (max-width: 1800px) {
 
-			.container {
+			.container1 {
 				width: 100% !important;
 			}
 
@@ -1746,7 +1747,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			.container {
+			.container1 {
 				max-width: calc(100% - 3.375em);
 			}
 
@@ -2824,11 +2825,16 @@ input, select, textarea {
 
 /* Main */
 
+	#main {
+		max-width: 800px;
+		margin-left: auto;
+  margin-right: auto;
+	}
 	#main > section {
 		border-top: solid 6px #f4f4f4;
 	}
 
-		#main > section > .container {
+		#main > section > .container1 {
 			padding: 6em 0 4em 0;
 		}
 
@@ -2902,7 +2908,7 @@ input, select, textarea {
 
 		/* Main */
 
-			#main > section > .container {
+			#main > section > .container1 {
 				padding: 4em 0 2em 0;
 			}
 
@@ -2938,7 +2944,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 1024px) {
+	@media screen and (max-width: 1800px) {
 
 		/* Basic */
 
@@ -3208,7 +3214,7 @@ input, select, textarea {
 
 		/* Main */
 
-			#main > section > .container {
+			#main > section > .container1 {
 				padding: 2em 0 0 0;
 			}
 
